@@ -1,0 +1,22 @@
+[01:30:34] [main/ERROR]: Exception in thread "main" java.io.IOError: java.io.IOException: Input/output error
+[01:30:34] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:143)
+[01:30:34] [main/ERROR]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[01:30:34] [main/ERROR]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[01:30:34] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848)
+[01:30:34] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868)
+[01:30:34] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575)
+[01:30:34] [main/ERROR]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418)
+[01:30:34] [main/ERROR]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[01:30:34] [main/ERROR]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[01:30:34] [main/ERROR]: 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:70)
+[01:30:34] [main/ERROR]: Caused by: java.io.IOException: Input/output error
+[01:30:34] [main/ERROR]: 	at java.base/java.io.FileInputStream.read0(Native Method)
+[01:30:34] [main/ERROR]: 	at java.base/java.io.FileInputStream.read(FileInputStream.java:237)
+[01:30:34] [main/ERROR]: 	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73)
+[01:30:34] [main/ERROR]: 	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+[01:30:34] [main/ERROR]: 	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168)
+[01:30:34] [main/ERROR]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[01:30:34] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133)
+[01:30:34] [main/ERROR]: 	... 9 more
+[10:19:50] [Shutdown thread/INFO]: Shutting down the proxy...
+[10:19:50] [Shutdown thread/INFO]: Closing endpoint /0.0.0.0:25577
